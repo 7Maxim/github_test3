@@ -1,0 +1,18 @@
+.main {
+  &__body {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+  }
+
+  &__head {
+    font-size: 64px;
+  }
+
+  &__text {
+    font-size: 28px;
+  }
+}
+.container {
+  min-width: 1080px;
+  margin: 0 auto;
+}
