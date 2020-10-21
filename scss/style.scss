@@ -1,11 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: palevioletred;
   &__body {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-align: center;
+    color: #fff;
   }
 
   &__head {
     font-size: 64px;
+    padding: 0 0 25px 0;
   }
 
   &__text {

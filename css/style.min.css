@@ -1,2 +1,2 @@
-.main__body{font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;text-align:center}.main__head{font-size:64px}.main__text{font-size:28px}.container{min-width:1080px;margin:0 auto}
+*{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box}.main{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:100vh;background-color:palevioletred}.main__body{font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;text-align:center;color:#fff}.main__head{font-size:64px;padding:0 0 25px 0}.main__text{font-size:28px}.container{min-width:1080px;margin:0 auto}
 /*# sourceMappingURL=style.min.css.map */
