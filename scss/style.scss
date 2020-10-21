@@ -5,11 +5,25 @@
 }
 
 .main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
-  background-color: palevioletred;
+  // background-color: palevioletred;
+  background-image: url("https://cdn.pixabay.com/photo/2020/10/18/11/01/deer-5664425_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  .wrapper {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 33, 33, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   &__body {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-align: center;
@@ -26,6 +40,6 @@
   }
 }
 .container {
-  min-width: 1080px;
+  max-width: 1080px;
   margin: 0 auto;
 }
